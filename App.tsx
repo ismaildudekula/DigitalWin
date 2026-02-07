@@ -16,12 +16,12 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <Clients />
         <About />
         <Process />
         <Services />
         <Projects />
         <Team />
-        <Clients />
         <Contact />
       </main>
       <Footer />
