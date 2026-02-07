@@ -6,19 +6,19 @@ const projects: Project[] = [
   {
     title: 'Land Adda',
     description: 'Connects genuine land sellers with buyers, offering expert guidance and a transparent, seamless experience in land transactions.',
-    image: 'https://picsum.photos/800/600?random=1',
+    image: 'https://www.digitalwin.in/images/landadda%20mockup.webp',
     link: '#',
   },
   {
-    title: 'Varcas Electric Scooters',
-    description: 'Varcas electric scooters deliver eco-friendly mobility, offering outstanding range and cost efficiency for rural and urban commuters worldwide.',
-    image: 'https://picsum.photos/800/600?random=2',
+    title: 'Vasavi White Lotus',
+    description: 'Luxury villa plots at Balanagar near Shadnagar. A premium 50-acre community featuring top-tier amenities and excellent connectivity.',
+    image: 'https://www.digitalwin.in/images/vasavi.webp',
     link: '#',
   },
   {
-    title: 'Right Key Realty',
-    description: 'Right Key Realty leads Hyderabad’s real estate market, offering personalized, client-focused services.',
-    image: 'https://picsum.photos/800/600?random=3',
+    title: 'Anvita High Nine',
+    description: 'Luxurious 2 & 3 BHK apartments and sky villas in Tellapur. Designed for happiness with unparalleled sports and leisure amenities.',
+    image: 'https://www.digitalwin.in/images/high9.webp',
     link: '#',
   },
 ];
@@ -39,7 +39,7 @@ export const Projects: React.FC = () => {
             <div key={index} className={`flex flex-col lg:flex-row gap-12 items-center ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
               <div className="w-full lg:w-1/2 group">
                 <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-                    <div className="absolute inset-0 bg-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 pointer-events-none"></div>
+                    <div className="absolute inset-0 bg-primary-600/20 opacity-0 group-hover:opacity-100 transition-opacity z-10 pointer-events-none"></div>
                     <img 
                         src={project.image} 
                         alt={project.title} 

@@ -27,12 +27,8 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0 cursor-pointer">
-             {/* Logo Placeholder */}
              <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center transform rotate-3">
-                    <span className="text-white font-bold text-xl">D</span>
-                </div>
-                <span className="text-xl font-bold tracking-tight text-white">Digital<span className="text-blue-500">Win</span></span>
+                <img src="https://www.digitalwin.in/employee-img/header-logo.png" alt="Digital Win Technologies" className="h-12 w-auto object-contain" />
              </div>
           </div>
           
@@ -51,7 +47,7 @@ export const Navbar: React.FC = () => {
           </div>
 
           <div className="hidden md:flex items-center gap-4">
-             <button className="flex items-center gap-2 text-white bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105">
+             <button className="flex items-center gap-2 text-white bg-primary-600 hover:bg-primary-700 px-5 py-2 rounded-full font-medium transition-all transform hover:scale-105">
                 Contact Us
                 <ArrowRight size={16} />
              </button>
@@ -89,7 +85,7 @@ export const Navbar: React.FC = () => {
               ))}
               <a
                 href="#contact"
-                className="text-white bg-blue-600 block px-3 py-2 rounded-md text-base font-medium mt-4"
+                className="text-white bg-primary-600 block px-3 py-2 rounded-md text-base font-medium mt-4"
                 onClick={() => setIsOpen(false)}
               >
                 Contact Us

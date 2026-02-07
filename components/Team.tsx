@@ -49,7 +49,7 @@ export const Team: React.FC = () => {
               onClick={() => setActiveTab(dept)}
               className={`px-5 py-2 rounded-full text-sm font-medium transition-all ${
                 activeTab === dept 
-                  ? 'bg-blue-600 text-white shadow-lg shadow-blue-500/30' 
+                  ? 'bg-primary-600 text-white shadow-lg shadow-primary-500/30' 
                   : 'bg-dark-800 text-gray-400 hover:bg-dark-700 hover:text-white'
               }`}
             >
@@ -71,9 +71,9 @@ export const Team: React.FC = () => {
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.2 }}
                 key={member.name + member.role + idx}
-                className="bg-dark-950 p-6 rounded-xl border border-gray-800 text-center hover:border-blue-500/50 transition-colors group"
+                className="bg-dark-950 p-6 rounded-xl border border-gray-800 text-center hover:border-primary-500/50 transition-colors group"
               >
-                <div className="w-24 h-24 mx-auto bg-gray-800 rounded-full mb-4 overflow-hidden border-2 border-transparent group-hover:border-blue-500 transition-colors">
+                <div className="w-24 h-24 mx-auto bg-gray-800 rounded-full mb-4 overflow-hidden border-2 border-transparent group-hover:border-primary-500 transition-colors">
                   <img 
                     src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${member.name}`} 
                     alt={member.name}
@@ -81,7 +81,7 @@ export const Team: React.FC = () => {
                   />
                 </div>
                 <h3 className="text-lg font-bold text-white">{member.name}</h3>
-                <p className="text-sm text-blue-400 mt-1">{member.role}</p>
+                <p className="text-sm text-primary-400 mt-1">{member.role}</p>
                 {activeTab === 'All' && (
                     <p className="text-xs text-gray-600 mt-2 uppercase tracking-wide">{member.department}</p>
                 )}

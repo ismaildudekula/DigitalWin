@@ -24,14 +24,14 @@ export const Contact: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-16">
           
           <div>
-            <h2 className="text-4xl font-bold text-white mb-6">Get Started: <br/><span className="text-blue-500">Elevate Your Brand Today</span></h2>
+            <h2 className="text-4xl font-bold text-white mb-6">Get Started: <br/><span className="text-primary-500">Elevate Your Brand Today</span></h2>
             <p className="text-gray-400 mb-10 text-lg">
               Ready to transform your digital presence? Fill out the form, and our team of experts will reach out to you with a customized strategy.
             </p>
 
             <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                    <div className="p-3 bg-blue-900/30 rounded-lg text-blue-400">
+                    <div className="p-3 bg-primary-900/30 rounded-lg text-primary-400">
                         <MapPin size={24} />
                     </div>
                     <div>
@@ -45,7 +45,7 @@ export const Contact: React.FC = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <div className="p-3 bg-blue-900/30 rounded-lg text-blue-400">
+                    <div className="p-3 bg-primary-900/30 rounded-lg text-primary-400">
                         <Phone size={24} />
                     </div>
                     <div>
@@ -65,7 +65,7 @@ export const Contact: React.FC = () => {
                   name="name"
                   required
                   placeholder="Enter Name"
-                  className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+                  className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
                   onChange={handleChange}
                 />
               </div>
@@ -76,7 +76,7 @@ export const Contact: React.FC = () => {
                   name="mobile"
                   required
                   placeholder="Enter Number"
-                  className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+                  className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
                   onChange={handleChange}
                 />
               </div>
@@ -87,7 +87,7 @@ export const Contact: React.FC = () => {
                   name="email"
                   required
                   placeholder="Enter Email"
-                  className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+                  className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
                   onChange={handleChange}
                 />
               </div>
@@ -97,21 +97,21 @@ export const Contact: React.FC = () => {
                   name="message"
                   rows={4}
                   placeholder="Type your message here"
-                  className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+                  className="w-full bg-dark-900 border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary-500 focus:ring-1 focus:ring-primary-500 transition-colors"
                   onChange={handleChange}
                 ></textarea>
               </div>
 
               <div className="flex items-center gap-2">
-                <input type="checkbox" id="terms" required className="rounded bg-dark-900 border-gray-700 text-blue-600 focus:ring-blue-500" />
+                <input type="checkbox" id="terms" required className="rounded bg-dark-900 border-gray-700 text-primary-600 focus:ring-primary-500" />
                 <label htmlFor="terms" className="text-sm text-gray-500">
-                    I agree to the <a href="#" className="text-blue-400 hover:underline">Terms & Conditions</a> and Privacy Policy.
+                    I agree to the <a href="#" className="text-primary-400 hover:underline">Terms & Conditions</a> and Privacy Policy.
                 </label>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-all transform hover:-translate-y-1"
+                className="w-full bg-primary-600 hover:bg-primary-700 text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 transition-all transform hover:-translate-y-1"
               >
                 Submit Request
                 <Send size={18} />

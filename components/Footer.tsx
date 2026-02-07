@@ -9,10 +9,7 @@ export const Footer: React.FC = () => {
           
           <div>
             <div className="flex items-center gap-2 mb-6">
-                <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center transform rotate-3">
-                    <span className="text-white font-bold text-xl">D</span>
-                </div>
-                <span className="text-xl font-bold tracking-tight text-white">Digital<span className="text-blue-500">Win</span></span>
+                <img src="https://www.digitalwin.in/employee-img/header-logo.png" alt="Digital Win Technologies" className="h-10 w-auto object-contain" />
              </div>
              <p className="text-gray-400 text-sm leading-relaxed">
                 Connect to New Possibilities with Digital Win Technologies. Excellence in Digital Marketing, Development, and Design.
@@ -22,31 +19,31 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-bold mb-6">Services</h4>
             <ul className="space-y-3 text-gray-400 text-sm">
-                <li><a href="#" className="hover:text-blue-400 transition-colors">Digital Marketing</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors">Web Development</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors">Graphic Designing</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors">Video Editing</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors">3D Designing</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">Digital Marketing</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">Web Development</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">Graphic Designing</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">Video Editing</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">3D Designing</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6">Company</h4>
             <ul className="space-y-3 text-gray-400 text-sm">
-                <li><a href="#" className="hover:text-blue-400 transition-colors">About Us</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors">Careers</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors">Blogs</a></li>
-                <li><a href="#" className="hover:text-blue-400 transition-colors">Contact</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">About Us</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">Careers</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">Blogs</a></li>
+                <li><a href="#" className="hover:text-primary-400 transition-colors">Contact</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6">Socials</h4>
             <div className="flex space-x-4">
-                <a href="#" className="text-gray-400 hover:text-blue-500 transition-colors"><Facebook size={20} /></a>
-                <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors"><Twitter size={20} /></a>
+                <a href="#" className="text-gray-400 hover:text-primary-500 transition-colors"><Facebook size={20} /></a>
+                <a href="#" className="text-gray-400 hover:text-primary-400 transition-colors"><Twitter size={20} /></a>
                 <a href="#" className="text-gray-400 hover:text-pink-500 transition-colors"><Instagram size={20} /></a>
-                <a href="#" className="text-gray-400 hover:text-blue-700 transition-colors"><Linkedin size={20} /></a>
+                <a href="#" className="text-gray-400 hover:text-primary-700 transition-colors"><Linkedin size={20} /></a>
             </div>
           </div>
         </div>

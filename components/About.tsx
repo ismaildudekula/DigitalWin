@@ -26,7 +26,7 @@ export const About: React.FC = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mt-10 lg:mt-0"
           >
-            <h2 className="text-base text-blue-500 font-semibold tracking-wide uppercase">Trust & Co.</h2>
+            <h2 className="text-base text-primary-500 font-semibold tracking-wide uppercase">Trust & Co.</h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
               Elevate Your Brand Today
             </p>

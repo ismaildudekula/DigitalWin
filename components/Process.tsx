@@ -6,7 +6,7 @@ const steps: ProcessStep[] = [
   {
     title: 'AI Driven Strategic Planning',
     description: 'Crafting clear, actionable plans for long-term success using cutting-edge AI tools.',
-    icon: <Brain className="w-8 h-8 text-blue-400" />,
+    icon: <Brain className="w-8 h-8 text-primary-400" />,
   },
   {
     title: 'Engagement',
@@ -40,7 +40,7 @@ export const Process: React.FC = () => {
           {steps.map((step, index) => (
             <div 
                 key={index}
-                className="bg-dark-900 p-8 rounded-2xl border border-gray-800 hover:border-blue-500/50 transition-all duration-300 group"
+                className="bg-dark-900 p-8 rounded-2xl border border-gray-800 hover:border-primary-500/50 transition-all duration-300 group"
             >
               <div className="mb-6 p-4 rounded-xl bg-gray-800/50 inline-block group-hover:bg-gray-800 transition-colors">
                 {step.icon}

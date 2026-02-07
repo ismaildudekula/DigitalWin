@@ -29,8 +29,8 @@ export const Clients: React.FC = () => {
             </div>
 
             <div className="bg-gradient-to-br from-gray-900 to-gray-800 p-8 rounded-2xl border border-gray-700 relative overflow-hidden">
-                <div className="absolute top-0 right-0 -mt-4 -mr-4 bg-blue-500/20 w-24 h-24 rounded-full blur-2xl"></div>
-                <Star className="w-10 h-10 text-blue-500 mb-4" />
+                <div className="absolute top-0 right-0 -mt-4 -mr-4 bg-primary-500/20 w-24 h-24 rounded-full blur-2xl"></div>
+                <Star className="w-10 h-10 text-primary-500 mb-4" />
                 <h3 className="text-xl font-bold text-white mb-2">Accreditations</h3>
                 <ul className="text-gray-400 text-sm space-y-1">
                     <li>• Google Partner Badge</li>
@@ -43,7 +43,7 @@ export const Clients: React.FC = () => {
         {/* Clients Marquee */}
         <div className="text-center mb-10">
             <h2 className="text-3xl font-bold text-white">Our Valuable Clients</h2>
-            <p className="text-blue-500 font-semibold mt-2">30+ Satisfied Clients</p>
+            <p className="text-primary-500 font-semibold mt-2">30+ Satisfied Clients</p>
         </div>
 
         <div className="relative overflow-hidden">
